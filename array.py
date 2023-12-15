@@ -28,3 +28,18 @@ print(maior)
 # utilizando numpy.max
 maior_np = np.max(numeros)
 print(maior_np)
+
+# Metodos
+
+numeros.append(10)  # Adiciona o elemento 10 no final do array
+numeros.insert(0, 6)  # Adiciona o elemento 6 na posição 0
+n2 = numeros.copy()  # Copia o array para uma nova variável
+numeros.sort()  # Organiza o array
+numeros.reverse()  # Inverte o array
+print(numeros.count(7))  # Conta as ocorrências do número passado como argumento
+print(numeros.index(12))  # Retorna o índice da primeira ocorrência do item passado como argumento
+numeros.pop()  # Retira o último elemento do array
+
+encontrar = 6 in numeros  # Procura o elemento indicado no array
+print(encontrar)
+
